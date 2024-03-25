@@ -14,7 +14,7 @@ The data can be checked in the UI below:
 
 ![](https://github.com/anoopmoorthy/intent.ai.java/blob/1a88dac218fcf6b302120995a6e43017457fcad7/screenshot.png)
 
-- Bid capture api : http://localhost:5758/big/request [POST]
+- Bid capture api : http://localhost:5758/bid/request [POST]
 - Response api http://localhost:5758/bid/response [SSE Emitter]
 - Api to access ui http://localhost:5758/ui/live
 
