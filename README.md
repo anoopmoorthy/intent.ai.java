@@ -8,7 +8,7 @@ https://github.com/intent-ai/engineering-interview
 3. Generate random Ad Campaigns to match with the bid request
 4. Match ad campaigns to bid request pulled from redis cache
 5. Select winning bid on below mehtioned criteria and send to ui.
-6. Statistical data is also generated which shows the maximum, minimum, and average amounts per bid, total number of campaigns per bid are shown as response rate, also winning IAB categories are also counted
+6. Statistical data is also generated and stored in embedded H2 Database, which shows the maximum, minimum, and average amounts per bid, total number of campaigns per bid are shown as response rate, also winning IAB categories are also counted
 
 ![](https://github.com/anoopmoorthy/intent.ai.java/blob/1a88dac218fcf6b302120995a6e43017457fcad7/screenshot.png)
 
