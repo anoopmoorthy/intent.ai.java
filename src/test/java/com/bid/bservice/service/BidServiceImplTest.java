@@ -79,13 +79,11 @@ public class BidServiceImplTest {
 	public void testcurrentBidStatus() throws IOException {
 		/*
 		when(redisService.dequeueJsonData()).thenReturn(bidRequest);
+		when(bidService.matchBidRequestToCampaign(bidRequest)).thenReturn(exchange);	
 		//when(metricsService.calculateMetrics(bidRequest, adCampaigns, campaign)).thenReturn(metricsExchange);
-		//when(bidService.matchBidRequestToCampaign(bidRequest)).thenReturn(exchange);
 		//when(objectMapper.writeValueAsString(Mockito.mock(Exchange.class))).thenReturn("");
 		SseEmitter emitter = new SseEmitter();
-		
 		bidService.currentBidStatus(emitter);
-		
 		verify(emitter, times(1)).send(any(SseEmitter.SseEventBuilder.class));
 		*/
 	}

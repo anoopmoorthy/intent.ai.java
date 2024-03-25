@@ -10,6 +10,8 @@ https://github.com/intent-ai/engineering-interview
 5. Select winning bid on below mehtioned criteria and send to ui.
 6. Statistical data is also generated and stored in embedded H2 Database, which shows the maximum, minimum, and average amounts per bid, total number of campaigns per bid are shown as response rate, also winning IAB categories are also counted
 
+The data is made available in the Ui to be checked
+
 ![](https://github.com/anoopmoorthy/intent.ai.java/blob/1a88dac218fcf6b302120995a6e43017457fcad7/screenshot.png)
 
 Bid capture api : http://localhost:5758/big/request [POST]
